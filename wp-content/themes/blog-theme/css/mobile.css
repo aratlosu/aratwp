@@ -1,0 +1,123 @@
+@media only screen and (max-width: 768px) {
+  header .navbar-brand {
+    padding-left: 1rem;
+  }
+  header .row .col-md-5 img {
+      width: 50%;
+      margin-top: -87px;
+  }
+  .section-1 .row .col-md-6 .panel {
+      position: initial;
+      width: initial;
+      height: initial;
+    }
+    .section-2 .cover {
+      background-position: -25vmin -10vmin;
+    }
+    .box .rect {
+      width: 10rem;
+      height: 8rem;
+    }
+    .box .rect h1 {
+      font-size: 2rem;
+    }
+    
+    .section-3 {
+      height: inherit;
+      padding: 10vmin !important;
+    }
+    .section-3 .row h1 {
+      padding: 6vmin 4vmin;
+    }
+    .section-3 .platform .col-md-6 {
+      text-align: center !important;
+    }
+    .section-3 .desktop i {
+      font-size: 8vmin;
+    }
+    .section-4 .card {
+      width: 29em;
+      
+  }
+  .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    font-size: 10px;
+}
+    
+    .section-4 .carousel-item {
+      padding-left: 0.6rem;
+    }
+    .section-5 .row .col-md-6 .panel {
+      position: initial;
+      width: initial;
+      height: initial;
+    }
+    footer .row .col-md-2 {
+      margin-top: 8vmin;
+    }
+  
+    .row {
+  
+  font-size: 10px;
+}
+.box .rect > p {
+
+font-size: 10px;
+}
+  }
+
+ 
+
+
+@media only screen and (max-width: 1208px) {
+  .section-1 .row .col-md-6 .panel {
+      
+      top: 48px;
+     
+      padding: 8vmin 5vmin 20vmin 10vmin;
+     
+  }
+  .section-1 .row .col-md-6 .panel p {
+      font-size: 10px;
+  }
+  .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    font-size: 10px;
+  }
+  
+ 
+  
+  .section-4 .card {
+      width: 14rem;
+      height: 28rem;
+  }
+    
+    .section-4 .carousel-item {
+      padding-left: 0.6rem;
+    }
+    .section-5 .row .col-md-6 .panel {
+      top: 100px;
+      padding: 9vmin 5vmin 8vmin 6vmin;
+  }
+  .section-5 .row .col-md-6 .panel p {
+    font-size: 10px;
+}
+}
+@media only screen and (max-width: 999px) {
+.section-1 .row .col-md-6 .panel {
+  top: 48px;
+  padding: 6vmin 2vmin 6vmin 10vmin;
+}
+
+.section-5 .row .col-md-6 .panel {
+  top: 67px;
+  padding: 4vmin 3vmin 4vmin 3vmin;
+}
+
+}
